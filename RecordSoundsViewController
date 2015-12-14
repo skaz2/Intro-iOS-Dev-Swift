@@ -35,7 +35,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate{
         stopRecording.hidden = false
         recordButton.enabled = false
         
-        let dirPath = NSSearchPathForDirectoriesInDomains(.DocumentationDirectory, .UserDomainMask, true)[0] as String
+        let dirPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as String
         
        
         let recordingName = "my_audio.wav"
